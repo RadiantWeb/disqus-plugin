@@ -1,4 +1,4 @@
-proevents-plugin
+disqus-plugin
 ===========
 
 A powerful events management app for October CMS.
