@@ -14,7 +14,7 @@ $$  /$$  /    \__|$$ |  $$ |\$$$$$$$ |\$$$$$$$ |$$ |\$$$$$$$ |$$ |  $$ | \$$$$  
 ```
 
 
-## ProEvents Settings
+## Disqus Settings
 
 You can add a Disqus site key to your /backend/disqus/settings area.
 
