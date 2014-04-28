@@ -1,7 +1,8 @@
 disqus-plugin
 ===========
 
-A powerful events management app for October CMS.
+Add Disqus Commenting to your October site.
+
 ```php
       $$\  $$\    $$$$$$$\                  $$\ $$\                      $$\     $$\      $$\           $$\       
      $$  |$$  |   $$  __$$\                 $$ |\__|                     $$ |    $$ | $\  $$ |          $$ |      
