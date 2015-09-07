@@ -22,6 +22,17 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerPermissions()
+    {
+        return [
+            'radiantweb.disqus.access_settings' => [
+                'tab' => 'Disqus',
+                'label' => 'Access Settings',
+            ],
+        ];
+    }
+
+
     public function registerSettings()
     {
         return [
@@ -30,7 +41,8 @@ class Plugin extends PluginBase
                 'description' => 'Manage Disqus Settings.',
                 'icon'        => 'icon-comments',
                 'class'       => 'Radiantweb\Disqus\Models\Settings',
-                'order'       => 100
+                'order'       => 100,
+                'permissions' => ['radiantweb.disqus.access_settings'],
             ]
         ];
     }
