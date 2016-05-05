@@ -6,4 +6,5 @@
     - Disqus Key Moved to Settings
 1.0.3:
     - Added more settings (https and dev mode)
-    - Tidied variable names and strings
+    - Tidied variable names and strings 
+	- Added access permissions for the settings. PR by @MatissJanis
