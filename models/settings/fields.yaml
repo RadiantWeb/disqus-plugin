@@ -8,7 +8,7 @@ fields:
       label: Disqus Website short name (located on Settings -> General)
       comment: Will look like *name*.disqus.com
       
-    disqusportocol:
+    disqusprotocol:
       label: What Protocol to use
       type: dropdown
       options:
