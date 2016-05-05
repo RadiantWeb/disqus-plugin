@@ -21,6 +21,8 @@ class Disqus extends ComponentBase
     }
 
     public function onRun(){
-        $this->page['disqus'] = DisqusSettingsModel::get('disquskey'); 
+        $this->page['disqusSite'] = DisqusSettingsModel::get('disqussite'); 
+        $this->page['disqusProtocol'] = DisqusSettingsModel::get('disqusprotocol'); 
+        $this->page['disqusDeveloperMode'] = DisqusSettingsModel::get('disqusdevmode'); 
     }
 }

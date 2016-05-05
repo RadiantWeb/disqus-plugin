@@ -4,5 +4,18 @@
 
 fields:
 
-    disquskey:
-      label: Disqus API Site Key
+    disqussite:
+      label: Disqus Website short name (located on Settings -> General)
+      comment: Will look like *name*.disqus.com
+      
+    disqusprotocol:
+      label: What Protocol to use
+      type: dropdown
+      options:
+            http: HTTP
+            https: HTTPS
+            
+    disqusdevmode:
+      label: Use developer mode
+      type: checkbox
+      default: false
