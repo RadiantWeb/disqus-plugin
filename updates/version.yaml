@@ -4,3 +4,5 @@
     - Register
 1.0.2:
     - Disqus Key Moved to Settings
+1.0.3:
+	- Added access permissions for the settings. PR by @MatissJanis
