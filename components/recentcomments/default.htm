@@ -1,0 +1,19 @@
+<div class="recent-comments">
+    {% for comment in __SELF__.comments() %}
+    <div class="disqus-comment-preview">
+        <img src="{{ comment.picture }}" />
+        <span class="date">{{ comment.created|date('d M Y') }}</span>
+        <span class="author">{{ comment.author }}</span>
+        <p class="message">
+            {% if __SELF__.message_limit %}
+            {{ str_limit(comment.message, __SELF__.message_limit, '...') }}
+            {% else %}
+            {{ comment.message }}
+            {% endif %}
+        </p>
+        <a href="{{ comment.thread_url }}">{{ comment.thread_name }}</a>
+    </div>
+    {% else %}
+    <p>There are no comments</p>
+    {% endfor %}
+</div>
