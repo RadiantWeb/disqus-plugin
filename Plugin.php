@@ -19,6 +19,7 @@ class Plugin extends PluginBase
     {
         return [
             'Radiantweb\Disqus\Components\Disqus' => 'disqus',
+            'Radiantweb\Disqus\Components\RecentComments' => 'disqusRecentComments',
         ];
     }
 
